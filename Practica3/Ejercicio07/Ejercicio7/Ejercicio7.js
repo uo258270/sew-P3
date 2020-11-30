@@ -51,7 +51,7 @@ class Ejercicio7 {
         $('tr').each(function (indiceFila, fila) {
             $('td', fila).each(function (indiceColumna, celda) {
                 let valor = parseInt($(celda).text());
-
+                
             });
         });
 
