@@ -46,17 +46,15 @@ class Ejercicio7 {
         
     }
 
-    sumarTabla(){
-
-        $('tr').each(function (indiceFila, fila) {
-            $('td', fila).each(function (indiceColumna, celda) {
-                let valor = parseInt($(celda).text());
-                
-            });
+    sumarTabla() {
+        var result = 0;
+        $("table td").each(function () {
+            var celda = $(this).text();
+            if ($.trim(celda) !== '') {
+                result += parseFloat(celda);
+            }
         });
-
-
-      
+        alert("La suma es: " + result);
     }
 
     inicializarControles() {
