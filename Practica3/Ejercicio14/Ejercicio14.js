@@ -7,6 +7,8 @@ class Procesamiento {
         
 		var canvas = document.getElementById("canvas");
 		if (canvas && canvas.getContext) {
+			canvas.height = 400;
+			canvas.width = 400;
 		var ctx = canvas.getContext("2d");
 			if (ctx) {
 					ctx.fillStyle = "#6ab150";
@@ -25,6 +27,7 @@ class Procesamiento {
 							for( var i = 0; i < L; i++ ){
 							var x = X + R * Math.cos( rad*i );
 							var y = Y + R * Math.sin( rad*i );
+							console.log('x=' + x + 'y=' +y);
 							ctx.lineTo(x, y);
 							}
 					ctx.closePath();

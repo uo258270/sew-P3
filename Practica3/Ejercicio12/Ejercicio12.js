@@ -47,7 +47,7 @@ class Procesador{
         this.crearElemento("p", "Contenido: ", "footer");
         var reader = new FileReader();
         reader.onloadend = function(evento){
-            var elemento = documento.createElement("pre");
+            var elemento = document.createElement("pre");
             elemento.innerHTML = reader.result;
             $("footer").before(elemento);
         };

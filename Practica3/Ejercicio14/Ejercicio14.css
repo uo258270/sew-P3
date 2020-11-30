@@ -12,5 +12,6 @@ p {
 	margin-bottom: 10px;
 }
 canvas {
-    width: 400px;
+	width: 400px;
+	height: 400px;
 }
