@@ -1,0 +1,15 @@
+document.write("<p>");
+document.write("Versión: " + navigator.appVersion);
+document.write("</p>");
+document.write("<p>");
+document.write("Platadorma: " + navigator.platform);
+document.write("</p>");
+document.write("<p>");
+document.write("Vendedor: " + navigator.vendor);
+document.write("</p>");
+document.write("<p>");
+document.write("Agente: " + navigator.userAgent);
+document.write("</p>");
+document.write("<p>");
+document.write("Java activado: " + navigator.javaEnabled());
+document.write("</p>");

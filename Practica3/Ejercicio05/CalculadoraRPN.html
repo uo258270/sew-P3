@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="SEW,Práctica03,ejercicio3,Software,Estándares,Web" />
+    <title>Calculadora RPN</title>
+
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora RPN</h1>
+    </header>
+
+    <main>
+        <form>
+            <p>
+                <input type="text" id="pantalla" value="0" disabled/>
+            </p>
+            <p>
+                <input type="button" class="memory" value="mrc" onclick="calculadora.showMemory()"/>
+                <input type="button" class="memory" value="m-" onclick="calculadora.lessMemory()"/>
+                <input type="button" class="memory" value="m+" onclick="calculadora.moreMemory()"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="x&#178;" onclick="calculadora.cacularMath('2')"/>
+                <input type="button" class="operation" value="x^y" onclick="calculadora.calcularMath('y')"/>
+                <input type="button" class="operation" value="sin" onclick="calculadora.calcularMath('sin')"/>
+                <input type="button" class="operation" value="cos" onclick="calculadora.cacularMath('cos')"/>
+                <input type="button" class="operation" value="tan" onclick="calculadora.cacularMath('tan')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="&#8730;" onclick="calculadora.cacularMath('raiz')"/>
+                <input type="button" class="operation" value="10^x" onclick="calculadora.calcularMath('x')"/>
+                <input type="button" class="operation" value="log" onclick="calculadora.calcularMath('log')"/>
+                <input type="button" class="operation" value="Exp" onclick="calculadora.cacularMath('e')"/>
+                <input type="button" class="operation" value="Mod" onclick="calculadora.cacularMath('%')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="&#8593;" onclick="calculadora.cleanPantalla()"/>
+                <input type="button" class="operation" value="CE" onclick="calculadora.cleanPantallaPartial()"/>
+                <input type="button" class="operation" value="C" onclick="calculadora.cleanTodo()"/>
+                <input type="button" class="operation" value="&#9003;" onclick="calculadora.cleanPantallaPartial()"/>
+                <input type="button" class="operation" value="&#247;" onclick="calculadora.operation('/')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="&#960;" onclick="calculadora.calcularMath('Math.PI')"/>
+                <input type="button" class="number" value="7" onclick="calculadora.addDigit('7')"/>
+                <input type="button" class="number" value="8" onclick="calculadora.addDigit('8')"/>
+                <input type="button" class="number" value="9" onclick="calculadora.addDigit('9')"/>
+                <input type="button" class="operation" value="*" onclick="calculadora.operation('*')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="n!" onclick="calculadora.factorial()"/>
+                <input type="button" class="number" value="4" onclick="calculadora.addDigit('4')"/>
+                <input type="button" class="number" value="5" onclick="calculadora.addDigit('5')"/>
+                <input type="button" class="number" value="6" onclick="calculadora.addDigit('6')"/>
+                <input type="button" class="operation" value="-" onclick="calculadora.operation('-')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="&#177;" onclick="calculadora.changeSign()"/>
+                <input type="button" class="number" value="1" onclick="calculadora.addDigit('1')"/>
+                <input type="button" class="number" value="2" onclick="calculadora.addDigit('2')"/>
+                <input type="button" class="number" value="3" onclick="calculadora.addDigit('3')"/>
+                <input type="button" class="operation" value="+" onclick="calculadora.operation('+')"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="(" onclick="calculadora.addDigit('(')"/>
+                <input type="button" class="operation" value=")" onclick="calculadora.addDigit(')')"/>
+                <input type="button" class="number" value="0" onclick="calculadora.addDigit('0')"/>
+                <input type="button" class="number" value="." onclick="calculadora.addPoint()"/>
+                <input type="button" class="operation" value="=" onclick="calculadora.showResult()"/>
+            </p>
+
+        </form>
+
+        
+    </main>
+
+
+    <footer>
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer"><img
+              src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+              alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" />
+            </a>
+            
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+            </a>
+        
+        </p>
+    </footer>
+
+
+</body>
+
+
+
+</html>

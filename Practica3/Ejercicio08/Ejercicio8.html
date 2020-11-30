@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="SEW,Práctica03,ejercicio8,Software,Estándares,Web" />
+    <title>Ejercicio 8</title>
+
+    <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio8.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 8</h1>
+    </header>
+
+    <main>
+        <h1>El tiempo en Asturias</h1>
+        <h2>Ciudades mas importantes cercanas a las rutas de Asturias</h2>
+		<button onclick = "oviedo.verJSON()">Ver el tiempo en Oviedo</button>
+		<button onclick = "gijon.verJSON()">Ver el tiempo en Gijón</button>
+        <button onclick = "aviles.verJSON()">Ver el tiempo en Avilés</button>
+        
+        <article id="resultado">
+            <h3>Ninguno</h3>
+            <pre></pre>
+            <div>Selecciona un lugar primero</div>
+        </article>
+
+    </main>
+</body>
+</html>

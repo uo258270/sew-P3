@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="SEW,Práctica03,ejercicio14,Software,Estándares,Web" />
+    <title>Ejercicio 14</title>
+    
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    
+    <script src="Ejercicio14.js"></script>
+    
+</head>
+
+
+
+<body onload="procesar.procesarCanvas()">
+    <canvas id="canvas"></canvas>
+    <h1>APIs utilizadas: </h1>
+    <h2>FILE, CANVAS y SVG</h2>
+    <p>Seleccione un archivo .svg para mostrar su contenido en imagen por pantalla</p>
+    <input id="subirArchivos" type="file" name="Archivos" onchange="procesar.procesarSvg(this.files)">
+    <div id="svgFile"></div>
+</body>
+
+</html>

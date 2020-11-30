@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+
+<rutas xmlns="http://tempuri.org/rutas" xsi:schemaLocation="http://tempuri.org/rutas rutas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+  <ruta nombre="Ruta del Alba" tipo="Senderismo" dificultad="facil">
+    <tiempoDuracion>PT5H</tiempoDuracion>
+    <agencia>Sin agencia</agencia>
+    <descripcion>
+      Se trata de una ruta lineal, que se inicia en Soto de Agues (Sobrescobio) y recorre el fondo de valle del rio Alba internadose en las foces hasta llegar a la Cruz de los Rios, punto de confluencia de varios arroyos que originan el rio Alba. El regreso se realiza por el mismo sendero.
+    </descripcion>
+    <personasAdecuadas>Todos los públicos</personasAdecuadas>
+    <lugarInicio>Soto de Agues</lugarInicio>
+    <direccionInicio>Casa del agua</direccionInicio>
+    <coordenadasInicio>43.2021,-5.4680, 430.0</coordenadasInicio>
+    <referencias>
+      <referencia>http://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/ruta-del-alba#</referencia>
+      <referencia>http://www.desdeasturias.com/ruta-del-alba/</referencia>
+      <referencia>http://www.asturiasparadisfrutar.es/2010/07/ruta-del-alba.html</referencia>
+    </referencias>
+    <recomendacion>8</recomendacion>
+    <hitos>
+      <hito nombre="Puente Precia">
+        <descripcionH>Es un viejo puente de madera por el cual hay que pasar durante la ruta al cual la hace mas bonita si cabe.</descripcionH>
+        <coordenadas>43.16802968265721, -5.476582991674388, 638.0</coordenadas>
+        <distanciaRecorrida unidad="metros">2000</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/puenteprecia.jpg"></foto>
+        </fotos>
+        
+
+      </hito>
+
+      <hito nombre="Foces de Llaimo">
+        <descripcionH> A partir de aquí el río Alba se hace protagonista de las ruta, obsequiándonos con sucesivas cascadas de formas bien diversas.</descripcionH>
+        <coordenadas>43.159814, -5.477888, 760.0 </coordenadas>
+        <distanciaRecorrida unidad="metros">2500</distanciaRecorrida>
+        <fotos>
+        <foto src="multimedia/foces.jpg"></foto>
+        </fotos>
+        <videos>
+          <video src="multimedia/rutadelalba.mp4"></video>
+        </videos>
+       
+      </hito>
+
+      <hito nombre="Cruz de los ríos">
+        <descripcionH>Cruz de los Ríos, donde junto a dos árboles centenarios se halla un pequeño refugio que indica el final de la ruta. El paisaje se abre de repente a un paraje de praderas dominado por la frondosidad de los hayedos de Llaímo y las alturas de El Retriñón (1.862 m), vértice de los concejos de Aller, Caso y Sobrescobio.</descripcionH>
+        <coordenadas>43.154587, -5.486965, 800</coordenadas>
+        <distanciaRecorrida unidad="metros">3000</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/cruzderios.jpg"></foto>
+        </fotos>
+        
+      </hito>
+    </hitos>
+
+  </ruta>
+
+  <ruta nombre="Monumentos Oviedo" tipo="Monumentos" dificultad="facil">
+    <tiempoDuracion>PT3H</tiempoDuracion>
+    <agencia>Sin agencia</agencia>
+    <diaInicio>2020-10-15</diaInicio>
+    <horaInicio>10:00</horaInicio>
+    <descripcion>
+      Ruta visitando algunos de los monumentos más memorables de la ciudad de Oviedo
+    </descripcion>
+    <personasAdecuadas>Todos los públicos</personasAdecuadas>
+    <lugarInicio>Oviedo</lugarInicio>
+    <direccionInicio>Plaza de la Escandalera</direccionInicio>
+    <coordenadasInicio>43.214368, 5.505233, 234.0</coordenadasInicio>
+    <referencias>
+      <referencia>https://www.perderseporelmundo.com/que-ver-en-oviedo-un-dia/</referencia>
+      <referencia>https://www.turismoasturias.es/descubre/cultura/patrimonio-religioso/catedral-de-san-salvador</referencia>
+      <referencia>http://www.principadodeasturias.com/index.php?cat=monumentos&amp;id=Oviedo&amp;ListaAreas=</referencia>
+    </referencias>
+    <recomendacion>10</recomendacion>
+    <hitos>
+      <hito nombre="Catedral de Oviedo">
+        <descripcionH>La Santa Iglesia Basílica Catedral de San Salvador de Oviedo es una catedral de estilo gótico que se encuentra en la ciudad de Oviedo. Es conocida también como Sancta Ovetensis, refiriéndose a la calidad y cantidad de las reliquias que contiene.</descripcionH>
+        <coordenadas> 43.36257,-5.84325, 243m</coordenadas>
+        <distanciaRecorrida unidad="metros">350</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/catedral.jpg"></foto>
+        </fotos>
+        
+      </hito>
+
+      <hito nombre="Plaza del Fontán">
+        <descripcionH> La plaza del fontán es posiblemente la plaza más conocida de la ciudad y para nosotros, uno de los lugares imprescindibles que ver en Oviedo. Su origen estuvo en una laguna natural que tuvo que ser desecada en el siglo XVI por cuestiones de salubridad. Del manantial o fontan que llenaba la laguna viene el nombre de la plaza. Tras la desaparición de la laguna, se construyó una fuente con un lavadero y a lo largo de su historia, hubo un colegio jesuita y fue utilizada como corral de comedias. </descripcionH>
+        <coordenadas>43.359749, -5.845851, 230.0</coordenadas>
+        <distanciaRecorrida unidad="metros">350</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/fontan.jpg"></foto>
+        </fotos>
+      </hito>
+
+      <hito nombre="Plaza de Trascorrales">
+        <descripcionH>A pesar de no ser tan popular como la Plaza del Fontán, este es uno de nuestros rincones favoritos que ver en Oviedo en un día, por sus casas de colores y por la escultura de la lechera con su burra, que recuerda que en este lugar se vendía queso y leche.</descripcionH>
+        <coordenadas> 43.360886, -5.843934, 236.0</coordenadas>
+        <distanciaRecorrida unidad="metros">400</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/trascorrales.jpg"></foto>
+        </fotos>
+        
+      </hito>
+
+      <hito nombre="Santa María del Naranco">
+        <descripcionH>La iglesia de Santa María del Naranco fue mandada a construir en el siglo IX por el rey Ramiro I, para ser usada como palacio de recreo y no fue hasta el siglo XII cuando se transformó en iglesia, ya que la que había junto a él, perdió parte de su estructura al derrumbarse.</descripcionH>
+        <coordenadas> 43.2245, 5.5157, 634.0</coordenadas>
+        <distanciaRecorrida unidad="metros">3500</distanciaRecorrida>
+        <fotos>
+          <foto src="multimedia/santamaria.jpg"></foto>
+        </fotos>
+        <videos>
+          <video src="https://youtu.be/M9oqaj7J_bE"></video>
+        </videos>
+       
+      </hito>
+
+
+    </hitos>
+  </ruta>
+  
+  
+    <ruta nombre="Senda Costa Norte" tipo="Playas" dificultad="media">
+      <tiempoDuracion>PT5H</tiempoDuracion>
+      <agencia>Sin agencia</agencia>
+      <descripcion>
+        Esta es una ruta costera perfecta para disfrutar de las vistas en familia y también de las playas que nos encontraremos a lo largo del recorrido. Una ruta con constantes subidas y bajadas por los 17 km de recorrido total. También es posible hacerla en bicicleta, pero en algunas partes de la ruta nos encontraremos con tramos de escaleras por los que tendremos que bajarnos y seguir andando.
+      </descripcion>
+      <personasAdecuadas>Todos los públicos</personasAdecuadas>
+      <lugarInicio>Playa de Arnao</lugarInicio>
+      <direccionInicio>Parking playa de Arnao</direccionInicio>
+      <coordenadasInicio>43.577520,-5.980806, 3.0</coordenadasInicio>
+      <referencias>
+        <referencia>https://www.elcomercio.es/rutas-senderismo-por-asturias/ruta-costera-arnao-san-juan-arena-20191129164436-nt.html</referencia>
+        <referencia>https://www.turismoasturias.es/descubre/costa/playas/playon-de-bayas-sablon</referencia>
+        <referencia>https://www.avilescomarca.info/rutas-y-paseos/senda-litoral-costa-norte-arnao-bayas/</referencia>
+      </referencias>
+      <recomendacion>8</recomendacion>
+      <hitos>
+        <hito nombre="Playa de Munielles">
+          <descripcionH>Una pequeña pero muy bella playa, de apenas 200 metros de longitud, de arena oscura y bolos y con un fuerte oleaje.</descripcionH>
+          <coordenadas> 43.579551,-6.012139, 5.0 </coordenadas>
+          <distanciaRecorrida unidad="metros">2530</distanciaRecorrida>
+          <fotos>
+            <foto src="multimedia/munielles.jpg"></foto>
+          </fotos>
+          
+        </hito>
+
+        <hito nombre="Mirador de la Deva">
+          <descripcionH>Desde él podremos observar la isla de La Deva, un espacio protegido y declarado monumento natural y la mayor de las islas del litoral asturiano. </descripcionH>
+          <coordenadas>43.5901111, -6.03283333, 120.0</coordenadas>
+          <distanciaRecorrida unidad="metros">9470</distanciaRecorrida>
+          <fotos>
+            <foto src="multimedia/deva.jpg"></foto>
+          </fotos>
+          
+        </hito>
+
+        <hito nombre="Playón de Bayas">
+          <descripcionH>Larga, de arenas doradas oscuras y fuerte oleaje. Así es el playón de Bayas o el Sablón, un bello arenal que se une con el de Los Quebrantos formando una extensa orilla, de más de 3 kilómetros, ideal para largos paseos.</descripcionH>
+          <coordenadas>43.5821 , -6.0354, 11.0</coordenadas>
+          <distanciaRecorrida unidad="metros">12400</distanciaRecorrida>
+          <fotos>
+            <foto src="multimedia/playon.jpg"></foto>
+          </fotos>
+          
+        </hito>
+
+        <hito nombre="San Juan de la Arena">
+          <descripcionH>La iglesia de Santa María del Naranco fue mandada a construir en el siglo IX por el rey Ramiro I, para ser usada como palacio de recreo y no fue hasta el siglo XII cuando se transformó en iglesia, ya que la que había junto a él, perdió parte de su estructura al derrumbarse.</descripcionH>
+          <coordenadas> 43.3324, -6.438, 20</coordenadas>
+          <distanciaRecorrida unidad="metros">17690</distanciaRecorrida>
+          <fotos>
+            <foto src="multimedia/sanjuan.jpg"></foto>
+          </fotos>
+          <videos>
+            <video src="https://youtu.be/is_SH4ZCnco"></video>
+          </videos>
+          
+        </hito>
+
+
+      </hitos>
+
+    </ruta>
+  
+  
+</rutas>

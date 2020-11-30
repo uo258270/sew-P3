@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.4680, 43.2021, 430.0
+          ],
+          [
+             -5.476582991674388, 43.16802968265721, 638.0
+          ],
+          [
+             -5.477888, 43.159814, 760.0
+          ],
+          [
+            -5.486965, 43.154587, 800
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ruta del alba",
+        "description": "Se trata de una ruta lineal, que se inicia en Soto de Agues (Sobrescobio) y recorre el fondo de valle del rio Alba internadose en las foces hasta llegar a la Cruz de los Rios, punto de confluencia de varios arroyos que originan el rio Alba. El regreso se realiza por el mismo sendero."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -5.505233, 43.214368, 234.0
+          ],
+          [
+            -5.84325, 43.36257, 243
+          ],
+          [
+             -5.845851, 43.359749, 230.0
+          ],
+          [
+            -5.843934, 43.360886, 236.0
+          ],
+          [
+             -5.5157,  43.2245, 634.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ruta Monumentos Oviedo",
+        "description": "Ruta visitando algunos de los monumentos más memorables de la ciudad de Oviedo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.980806, 43.577520, 3.0
+          ],
+          [
+            -6.012139,  43.579551,5.0 
+          ],
+          [
+             -6.03283333, 43.5901111, 120.0
+          ],
+          [
+            -6.0354, 43.5821 , 11.0
+          ],
+          [
+            -6.438, 43.3324, 20
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ruta Senda Costa Norte",
+        "description": "Esta es una ruta costera perfecta para disfrutar de las vistas en familia y también de las playas que nos encontraremos a lo largo del recorrido. Una ruta con constantes subidas y bajadas por los 17 km de recorrido total. También es posible hacerla en bicicleta, pero en algunas partes de la ruta nos encontraremos con tramos de escaleras por los que tendremos que bajarnos y seguir andando."
+      }
+    }
+  ]
+}
