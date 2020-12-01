@@ -2,7 +2,8 @@
 class News{
 
     constructor(){
-        var url = 'https://newsapi.org/v2/everything?' +'q=Apple&' + 'from=2020-11-23&' + 'sortBy=popularity&' + 'apiKey=9c693d4f8a1c4b9c9370c8073aa88772';
+        var url = 'https://newsapi.org/v2/everything?' +'q=Apple&' 
+        + 'from=2020-11-23&' + 'sortBy=popularity&' + 'apiKey=9c693d4f8a1c4b9c9370c8073aa88772';
         $.get(url, (datos) => this.cargarNoticias(datos));
         
     }
