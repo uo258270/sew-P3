@@ -19,7 +19,12 @@
     <h1>APIs utilizadas: </h1>
     <h2>FILE, CANVAS y SVG</h2>
     <p>Seleccione un archivo .svg para mostrar su contenido en imagen por pantalla</p>
-    <input id="subirArchivos" type="file" name="Archivos" onchange="procesar.procesarSvg(this.files)">
+    <section>
+        <label for="archivoTexto">Seleccione archivo: </label>
+        <input type="file" id="archivoTexto" onchange="procesar.procesarSvg(this.files)">
+    </section>
+
+    
     <div id="svgFile"></div>
 </body>
 
