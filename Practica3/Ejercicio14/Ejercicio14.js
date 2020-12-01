@@ -11,7 +11,7 @@ class Procesamiento {
 			canvas.width = 400;
 		var ctx = canvas.getContext("2d");
 			if (ctx) {
-					ctx.fillStyle = "#6ab150";
+					ctx.fillStyle = "#8A2BE2";
 					ctx.lineWidth = 6;
 					var X = canvas.width / 2;
 					var Y = canvas.height / 2;
