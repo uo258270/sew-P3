@@ -32,7 +32,7 @@ main {
 }
 
 /* a=0 b=0 c=1 -> Especificidad = 1 */
-div {
+form {
     margin: 5% 5%;
     width: 50%;
     padding: 5%;
@@ -42,29 +42,29 @@ div {
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
-div input {
+form input {
     border-radius: 5px;
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-div input:active {
+form input:active {
     background-color: gainsboro;
     color: black;
 }
-/* a=0 b=1 c=2 -> Especificidad = 12 */
-div p {
+
+form p {
     height: 20%;
     
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-div input[type=button] {
+form input[type=button] {
     width: 24%;
     padding: 10px;
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-div input[type=text] {
+form input[type=text] {
     width: 100%;
     padding-left: 5%;
     background-color: white;
