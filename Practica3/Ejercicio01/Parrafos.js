@@ -13,7 +13,7 @@ document.write("</p>");
 document.write("<p>Curso actual: ");
 document.write(asignatura.curso);
 document.write("</p>");
-document.write("<p>Profesor: ");
+document.write("<p>Estudiante: ");
 document.write(asignatura.estudiante);
 document.write("</p>");
 document.write("<p>e-mail: ");
