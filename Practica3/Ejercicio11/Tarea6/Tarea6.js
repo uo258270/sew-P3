@@ -11,8 +11,8 @@ class Mapa{
         this.map = new google.maps.Map(document.getElementById('mapa'), {
             zoom: 10,
             center: {
-                lat: 0,
-                lng: 0
+                lat: 43.36029,
+                lng: -5.84476
             }
         });
 
