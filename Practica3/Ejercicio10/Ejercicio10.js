@@ -7,48 +7,25 @@ class News{
         $.get(url, (datos) => this.cargarNoticias(datos));
         
     }
-
-    nuevoElemento(tipoElemento, texto, insertarAntesDe) {
-        var elemento = document.createElement(tipoElemento);
-        elemento.innerHTML = texto;
-        $(insertarAntesDe).before(elemento);
-    }
-
+    
 
     cargarNoticias(noticias) {
 
-        for(let i =1; i<noticias.articles.length; i++){
-            this.nuevoElemento("article", "", "footer", i);
-            $.ajax({
-                dataType: "xml",
-                url: this.url,
-                method: 'GET',
-                success: function(datos){
-                   $('pre').text(JSON.stringify(datos, null, 2));
+        var articulos = noticias.articles;
+        var total = noticias.totalResults;
 
-                   var html = "<article>";
-                   html += '<h2>' + datos.articles[i].title + '</h2>';
-                   //html+= '<img src="' + articulo.urlToImg +'"/>';
-                   html += '<p>' + datos.articles[i].content + '</p>';
-                   html += '<p>' + datos.articles[i].description + '</p>';
-                   //html += '<ref>' + articulo.url + '</ref>';
-                   
-                   html += '</article>';
-                   $('#resultado div').append(html);
+        articulos.forEach(articulo => {
 
-                },
-                error:function(){
-                    $("h3").html("error, no se puede obtener JSON");
-                    $('pre').remove();
-                    $('p').remove();
-                }
-
-        
-            });
-        
-        
-        
-        }
+            var html = '<article>';
+            html += '<h1>' + articulo.title + '</h1>';
+            //html+= '<img src="' + articulo.urlToImg +'"/>';
+            html += '<p>' + articulo.content + '</p>';
+            html += '<p>' + articulo.description + '</p>';
+            //html += '<ref>' + articulo.url + '</ref>';
+            
+            html += '</article>';
+            $('#resultado div').append(html);
+        });
     }
 
    
