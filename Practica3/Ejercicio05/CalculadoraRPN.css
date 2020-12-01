@@ -69,7 +69,6 @@ form input[type=text] {
 /* a=1 b=0 c=0 -> Especificidad = 100 */
 .operation {
     background-color: grey;
-    box-shadow: black;
     color: black;
 }
 
