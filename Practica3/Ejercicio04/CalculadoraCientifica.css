@@ -33,7 +33,7 @@ form {
     padding: 5%;
     align-items: center;
     border-radius: 5px;
-    background-color: lightgreen;
+    background-color: rgb(170, 221, 170);
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
@@ -74,8 +74,8 @@ form input[type=text] {
 
 /* a=1 b=0 c=0 -> Especificidad = 100 */
 .number {
-    color: white;
-    background-color: lightgrey;
+    color: black;
+    background-color: paleturquoise;
 }
 
 /* a=1 b=0 c=0 -> Especificidad = 100 */
