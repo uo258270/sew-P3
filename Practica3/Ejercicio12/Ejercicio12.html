@@ -20,7 +20,10 @@
     <p>Archivos seleccionados: <span id="numero">0</span></p>
     <p>Tamaño total: <span id="tamaño">0</span></p>
     <span id="soporte"></span>
-    <input id="subirArchivos" type="file" name="Archivos" onchange="procesador.procesar(this.files)" multiple>
+    <section>
+        <label for="Archivos"> Añadir archivos: </label>
+        <input id="subirArchivos" type="file" name="Archivos" onchange="procesador.procesar(this.files)" multiple>
+    </section>
 
 </body>
 
