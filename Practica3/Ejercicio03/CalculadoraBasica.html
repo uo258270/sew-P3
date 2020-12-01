@@ -17,42 +17,53 @@
 
     <main>
         <form>
-            <label> 
+            
             <p>
-                <input type="text" id="pantalla" value="0" disabled/>
+                <label>
+                <input type="text" id="pantalla" value="0" disabled/> </label>
             </p>
             <p>
+                <label>
                 <input type="button" class="memory" value="mrc" onclick="calculadora.showMemory()"/>
                 <input type="button" class="memory" value="m-" onclick="calculadora.lessMemory()"/>
                 <input type="button" class="memory" value="m+" onclick="calculadora.moreMemory()"/>
                 <input type="button" class="operation" value="/" onclick="calculadora.operation('/')"/>
+            </label>
             </p>
             <p>
+                <label>
                 <input type="button" class="number" value="7" onclick="calculadora.addDigit('7')"/>
                 <input type="button" class="number" value="8" onclick="calculadora.addDigit('8')"/>
                 <input type="button" class="number" value="9" onclick="calculadora.addDigit('9')"/>
                 <input type="button" class="operation" value="*" onclick="calculadora.operation('*')"/>
+            </label>
             </p>
             <p>
+                <label>
                 <input type="button" class="number" value="4" onclick="calculadora.addDigit('4')"/>
                 <input type="button" class="number" value="5" onclick="calculadora.addDigit('5')"/>
                 <input type="button" class="number" value="6" onclick="calculadora.addDigit('6')"/>
                 <input type="button" class="operation" value="-" onclick="calculadora.operation('-')"/>
+            </label>
             </p>
             <p>
+                <label>
                 <input type="button" class="number" value="1" onclick="calculadora.addDigit('1')"/>
                 <input type="button" class="number" value="2" onclick="calculadora.addDigit('2')"/>
                 <input type="button" class="number" value="3" onclick="calculadora.addDigit('3')"/>
                 <input type="button" class="operation" value="+" onclick="calculadora.operation('+')"/>
+            </label>
             </p>
             <p>
+                <label>
                 <input type="button" class="number" value="0" onclick="calculadora.addDigit('0')"/>
                 <input type="button" class="number" value="." onclick="calculadora.addPoint()"/>
                 <input type="button" class="number" value="C" onclick="calculadora.cleanTodo()"/>
                 <input type="button" class="operation" value="=" onclick="calculadora.showResult()"/>
+            </label>
             </p>
 
-        </label>
+        
         </form>
 
         
