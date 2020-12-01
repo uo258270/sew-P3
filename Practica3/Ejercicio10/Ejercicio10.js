@@ -9,7 +9,6 @@ class News{
     }
 
     cargarNoticias(noticias) {
-        console.log(noticias);
 
         var articulos = noticias.articles;
         var total = noticias.totalResults;
