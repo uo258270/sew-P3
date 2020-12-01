@@ -47,29 +47,29 @@ form {
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
-form input {
+section input {
     border-radius: 5px;
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-form input:active {
+section input:active {
     background-color: gainsboro;
     color: black;
 }
 
-form p {
+section p {
     height: 10%;
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-form input[type=button] {
+section input[type=button] {
     width: 14%;
     padding: 10px;
     
 }
 
 /* a=0 b=1 c=2 -> Especificidad = 12 */
-form input[type=text] {
+section input[type=text] {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
