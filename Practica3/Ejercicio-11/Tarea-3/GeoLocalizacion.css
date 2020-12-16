@@ -1,0 +1,43 @@
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+body {
+    position: relative;
+   
+    font-family: Ubuntu, Tahoma, sans-serif;
+    background-color: lightgoldenrodyellow;
+   
+}
+
+/* a=0 b=0 c=1 Especificidad = 1*/
+h1{
+    text-align: center;
+    padding: 40px 10px;
+    color: black;
+}
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+h2{
+    color: purple;
+}
+
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+main {
+    align-self: center;
+    padding: 100px 100px;
+    border-radius: 5%;
+    background-color: rgb(199, 232, 243);
+    margin: 5% 5%;
+    width: 50%;
+
+    margin-left: 15%;
+    align-items: center;
+}
+
+/* a=0 b=0 c=1 -> Especificidad = 1*/
+button{
+    padding: 10px;
+    border-radius: 10%;
+    background-color: royalblue;
+    color: white;
+    
+}

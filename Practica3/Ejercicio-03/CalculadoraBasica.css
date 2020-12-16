@@ -1,0 +1,111 @@
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 10em;
+    min-height: 100%;
+    font-family: Ubuntu, Tahoma, sans-serif;
+    color: black;
+    background-color: plum;
+   
+}
+
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+h1{
+    text-align: center;
+}
+
+
+
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+main {
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 100px;
+   
+    border-radius: 5%;
+
+
+}
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+section {
+    margin: 5% 5%;
+    width: 50%;
+    padding: 5%;
+   
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+/* a=0 b=0 c=2 -> Especificidad = 2 */
+section input {
+    border-radius: 5px;
+}
+
+/* a=0 b=1 c=2 -> Especificidad = 12 */
+section input:active {
+    background-color: gainsboro;
+    color: black;
+}
+
+
+/* a=0 b=1 c=2 -> Especificidad = 12 */
+section p {
+    height: 20%;
+    
+}
+
+/* a=0 b=1 c=2 -> Especificidad = 12 */
+section input[type=button] {
+    width: 24%;
+    padding: 10px;
+}
+
+/* a=0 b=1 c=2 -> Especificidad = 12 */
+section input[type=text] {
+    width: 100%;
+    padding-left: 5%;
+    background-color: white;
+}
+
+
+/* a=1 b=0 c=0 -> Especificidad = 100 */
+.operation { 
+    color: white;
+    background-color: plum;
+    
+   
+}
+
+/* a=1 b=0 c= 0 Especificidad = 100*/
+#pantalla {
+    padding: 10px;
+}
+
+/* a=1 b=0 c=0 -> Especificidad = 100 */
+.number {
+    color: white;
+    background-color: lightgrey;
+}
+
+/* a=1 b=0 c=0 -> Especificidad = 100 */
+.memory {
+    
+    color: white;
+    background-color: grey;
+}
+
+
+
+@media screen and (max-height: 480px) {
+    /* a=0 b=0 c=1 -> Especificidad = 1 */
+    body {
+        position: static;
+        padding-bottom: 0;
+    }
+
+}
