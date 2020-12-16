@@ -55,6 +55,7 @@ section p {
 section input[type=button] {
     width: 14%;
     padding: 10px;
+    margin: 4px 2px;
     
 }
 
