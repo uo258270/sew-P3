@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="SEW,Práctica03,ejercicio3,Software,Estándares,Web" />
+    <title>Calculadora RPN</title>
+
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+
+<body>
+    <h1>Calculadora RPN</h1>
+    <main>
+        <input type="text" id="pila" disabled=""/>
+        <input type="text" id="consola" disabled=""/>
+        
+        <input type="button" id="sin" 	value="SIN" onclick="calculadora.botonTrigonometrica(1)"/>
+        <input type="button" id="cos" 	value="COS" onclick="calculadora.botonTrigonometrica(2)"/>
+        <input type="button" id="tan" 	value="TAN" onclick="calculadora.botonTrigonometrica(3)"/>
+        <input type="button" id="log" 	value="LOG" onclick="calculadora.botonLog()"/>
+        
+        <input type="button" id="siete" value="7" onclick="calculadora.boton7()"/>
+        <input type="button" id="ocho" 	value="8" onclick="calculadora.boton8()"/>
+        <input type="button" id="nueve" value="9" onclick="calculadora.boton9()"/>
+        <input type="button" id="div" 	value="/" onclick="calculadora.botonDiv()"/>
+        
+        <input type="button" id="cuatro" value="4" onclick="calculadora.boton4()"/>
+        <input type="button" id="cinco" value="5" onclick="calculadora.boton5()"/>
+        <input type="button" id="seis" 	value="6" onclick="calculadora.boton6()"/>
+        <input type="button" id="mul"	value="x" onclick="calculadora.botonMul()"/>
+        
+        <input type="button" id="uno" 	value="1" onclick="calculadora.boton1()"/>
+        <input type="button" id="dos" 	value="2" onclick="calculadora.boton2()"/>
+        <input type="button" id="tres" 	value="3" onclick="calculadora.boton3()"/>
+        <input type="button" id="sub" 	value="-" onclick="calculadora.botonSub()"/>
+        
+        <input type="button" id="cero"  value="0" onclick="calculadora.boton0()"/>
+        <input type="button" id="dec" 	value="." onclick="calculadora.botonDec()"/>
+        <input type="button" id="c" 	value="C" onclick="calculadora.resetear()"/>
+        <input type="button" id="sum" 	value="+" onclick="calculadora.botonSum()"/>
+        
+        <input type="button" id="apilar" 	value="Apilar" onclick="calculadora.botonApilarDato()"/>
+        <input type="button" id="desapilar" value="Desapilar" onclick="calculadora.botonDesapilarDato()"/>
+        <input type="button" id="ac" 	value="AC" onclick="calculadora.resetearfull()"/>
+    </main>
+</body>
+</html>
