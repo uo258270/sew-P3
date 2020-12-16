@@ -17,22 +17,23 @@ h1{
 }
 
 
-form{
-    background-color: lightgreen;
-}
+
 /* a=0 b=0 c=1 -> Especificidad = 1 */
 main {
     margin: 0 auto;
     width: 100%;
     padding: 100px 100px;
     border-radius: 5%;
-   
 }
 
 /* a=0 b=0 c=1 -> Especificidad = 1 */
 section {
-   background-color: aliceblue;
-   align-items: center;
+    margin: 5% 5%;
+    width: 50%;
+    padding: 5%;
+    align-items: center;
+    border-radius: 5px;
+    background-color: lightgreen;
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
