@@ -28,12 +28,8 @@ main {
 
 /* a=0 b=0 c=1 -> Especificidad = 1 */
 section {
-    margin: 5% 5%;
-    width: 50%;
-    padding: 5%;
-    align-items: center;
-    border-radius: 5px;
-    background-color: lightgreen;
+   background-color: aliceblue;
+   align-items: center;
 }
 
 /* a=0 b=0 c=2 -> Especificidad = 2 */
