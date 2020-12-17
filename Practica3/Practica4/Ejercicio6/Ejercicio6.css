@@ -1,0 +1,49 @@
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+body {
+    position: relative;
+   
+    font-family: Ubuntu, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightcyan ;
+    text-align: justify;
+}
+
+/* a=0 b=0 c=1 Especificidad = 1*/
+h1{
+    text-align: center;
+    color: black;
+    padding: 10px 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 110%;
+    
+}
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+h2{
+    color: purple;
+}
+
+
+/* a=0 b=0 c=1 -> Especificidad = 1 */
+main {
+ 
+    align-items: center;
+}
+
+
+#confirm{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+#formbase, footer{
+	margin-top: 2em;
+    text-align: center;
+}
