@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Base de datos</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="SEW,Práctica4,ejercicio4,Software,Estándares,Web" />
+        <link href="Ejercicio6.css" rel="stylesheet" />
+	</head>
+    
+	<body>
+		<h1>Gestión BBDD MySQL con PHP</h1>
+		<h2>Menú para gestionar la BBDD:</h2>
+		<nav>  
+			<ul>
+				<li><a href="Ejercicio6.html" title="Inicio">Inicio</a></li>
+				<li><a href="CrearBD.php" title="Crear Base de Datos">Crear Base de Datos</a></li>
+				<li><a href="CrearTabla.php" title="Crear Tabla">Crear una tabla</a></li>
+				<li><a href="BuscarDatos.php" title="Buscar Datos Introducidos">Buscar datos introducidos</a></li>
+				<li><a href="ModificarDatos.php" title="Modificar Datos Introducidos">Modificar datos introducidos</a></li>
+				<li><a href="EliminarDatos.php" title="Eliminar Datos Introducidos">Eliminar datos introducidos</a></li>
+				<li><a href="GenerarInforme.php" title="Generar informe de datos">Generar informe de datos</a></li>
+				<li><a href="CargarDatos.php" title="Cargar datos desde archivo local">Cargar datos desde archivo local</a></li>
+				<li><a href="ExportarDatos.php" title="Exportar datos a fichero">Exportar datos a fichero</a></li>
+			</ul>
+		</nav> 
+		<h1>Complete los datos a insertar en la tabla PruebasUsabilidad</h1>
+		<form id="formbase" action='#' method='post'>
+            <p>Datos del usuario</p>
+            Nombre del usuario: 
+				<input type='text' class='text' name='nombre'/>
+                <br>
+            Apellidos del usuario: 
+				<input type='text' class='text' name='apellidos'/>
+                <br>
+            E-mail del usuario: 
+				<input type='text' class='text' name='email'/>
+                <br>
+            Telefono del usuario: 
+				<input type='text' class='text' name='telefono'/>
+				<br>
+			Edad del usuario: 
+				<input type='text' class='text' name='edad'/>
+				<br>
+			Sexo del usuario: 
+				<select name="sexo">
+					<option value="hombre">Hombre</option>
+					<option value="mujer">Mujer</option>
+				</select>
+				<br>
+			<p>Datos de la prueba</p>
+			¿Prueba realizada correctamente?:
+				<input type='text' class='text' name='correcta'/>
+				<br>
+			Tiempo empleado en realizar la prueba:
+				<input type='text' class='text' name='tiempo'/>
+				<br>
+			Pericia demostrada: 
+				<select name="pericia">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+				<br>
+			<p>Aspectos sobre la aplicación probada</p>
+			Valoración de la aplicación: 
+				<select name="valoracion">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+				<br>
+			Propuestas de mejora de la aplicación: 
+				<input type='text' class='text' name='propuestas'/>
+				<br>			
+			Comentarios extras: 
+				<input type='text' class='text' name='comentarios'/>
+				<br>
+			<input type='submit' class='button' name='insertar' value='Insertar datos en PruebasUsabilidad'/>
+		</form>
+		
+		    		
+		<footer>
+			<a href="https://validator.w3.org/check?uri=referer"><img
+				src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+				alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+			<a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+				<img src=" http://jigsaw.w3.org/css-validator/images/vcss"
+				alt="Valid CSS!" height="31" width="88"/></a> 
+		</footer>
+	</body>
+</html>
